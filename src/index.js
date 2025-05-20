@@ -4,11 +4,13 @@
 
 // Convert the above function to arrow function
 const divides = (num1, num2) => num1 % num2 === 0;
+
 console.log(divides(4, 2));
 console.log(divides(4, 3));
 
 // Write a function that converts Fahrenheit to Celsius
 const fahrenheitToCelsius = f => (f - 32) * 5 / 9;
+
 console.log(fahrenheitToCelsius(32));
 console.log(fahrenheitToCelsius(212));
 
